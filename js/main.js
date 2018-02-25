@@ -16,6 +16,11 @@
     }
     let code = 
     `
+    /*我可爱的小仙女，男朋友今天给你演示下，什么叫做小触，2333
+    *今天表演的绝活是，大变皮卡丘
+    *在变之前，给你来一点看不懂的代码
+    *因为这是必须的工作
+    */
     .preview {
         height: 100%;
         /* width: 100%; */
@@ -31,6 +36,10 @@
         /* border: 1px solid blue; */
         position: relative;
     }
+    /*准备工作完毕，我已经有了张白纸
+    *那么，我开始画皮卡丘了
+    *首先,我需要画个小鼻子
+    */
     .nose {
         width: 0px;
         height: 0px;
@@ -43,6 +52,9 @@
         left: 50%;
         margin-left: -12px;
     }
+    /*鼻子画完后，那就是眼睛喽
+    *先画出眼睛原型
+    */
     .eye {
         width: 49px;
         height: 49px;
@@ -63,14 +75,19 @@
         top: -1px;
         border: 2px solid #000;
     }
+    /*现在开始摆置左眼*/
     .eye.left {
         right: 50%;
         margin-right: 90px;
     }
+    /*然后再是右眼*/
     .eye.right {
         left: 50%;
         margin-left: 90px;
     }
+    /*好了，眼睛小工告成
+    *我们可以画脸颊了
+    */
     .face {
         width: 68px;
         height: 68px;
@@ -88,6 +105,10 @@
         left: 50%;
         margin-left: 116px; 
     }
+    /*
+    *红扑扑的脸颊有没有很像你呢，2333
+    *脸颊画好后，那就是嘴唇了
+    */
     .upperlip {
         height: 25px;
         width: 80px;
@@ -110,6 +131,9 @@
         border-left: none;
         transform: rotate(15deg);
     }
+    /*
+    *上嘴唇搞定后，我们需要一个可爱的小舌头
+    */
     .lowerlip-wrapper {
         width: 300px;
         height: 110px;
@@ -140,6 +164,11 @@
         left: 50%;
         transform: translateX(-50%);
     }
+    /*
+    *好了，到这里，我们的皮卡丘已经完成了
+    *希望你可以喜欢哟
+    *你猜最后的代码会出现什么？
+    */
     span {
         font-size: 26px;
         color: #FC4A62;
@@ -151,6 +180,9 @@
         word-break: keep-all;
         opacity: 1;
     }
+    /*
+    *哈哈，就是我想说的一句话，超级简单的彩蛋，爱你呦！
+    */
     `
     writeCode('',code)
 }.call()
