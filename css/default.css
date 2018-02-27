@@ -27,6 +27,6 @@ body {
     height: 100%;
     overflow: auto;
 }
-span {
+.a-wrapper a {
     opacity: 0;
 }
